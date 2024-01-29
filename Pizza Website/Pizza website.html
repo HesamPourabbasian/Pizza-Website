@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="/Style/Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<!--Navigation Bar-->
+
+<nav>
+    <a href="#home"><img src="/logos/🦆 icon _Pizza Slice_.svg" alt="Logo">mania</a>
+    <div class="split-buttons">
+        <button onclick="location.href='#home'">Home</button>
+        <button onclick="location.href='#menu'">Menu</button>
+        <button onclick="location.href='#services'">Specials & Coupons</button>
+        <button onclick="location.href='#contact'">Contact Us</button>
+    </div>
+</nav>
+
+
+<!--landing-->
+
+<div class="container">
+    <div class="column">
+        <h2>Pizza family</h2>
+        <p>people disappoint, but pizza never does.</p>
+        
+        <form>
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname">
+        <a class="searchlocation" href="/Pizza website.html">
+            <img src="/logos/🦆 icon _Search Location_.svg" alt="">
+            search location
+        </a> 
+        
+     </form>
+
+     <div class="trynow">
+        <a  href="">Try Now</a>   
+    </div>  
+
+    
+    </div>
+
+
+
+
+
+
+    <div class="column">
+     <img class="img" src="/images/burger 1.png" alt="">
+    </div>
+    
+  
+        <img src="/logos/🦆 icon _Cloud with Sun_.png" id="icon">
+        
+    </div>
+</div>
+
+
+<!--Menu-->
+
+<div class="menu">
+    <h2>MENU</h2>
+</div>
+<div class="row">
+    <div class="column2">
+      <img src="/images/10219 1.png" alt="">
+    </div>
+    <div class="column2">
+        <h2>Pizza by the slice</h2>
+        <br>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+        <br>
+        <br>
+        <br>
+        <h2>Pizza by the slice</h2>
+        <br>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+        <p>Pizza style  .....................  $4.2</p>
+    </div>
+    <div class="column2">
+        <h2>Gourmet Pizza</h2>
+        <p>Classic pizza ...............$ 19.99 <br> <br><span class="pricedisc">
+            Pizza comes with all tapping that you describe in this section
+        </span></p>
+        <h2>Gourmet Pizza</h2>
+        <p>Classic pizza ...............$ 19.99 <br> <br><span class="pricedisc">
+            Pizza comes with all tapping that you describe in this section
+        </span></p>     <h2>Gourmet Pizza</h2>
+        <p>Classic pizza ...............$ 19.99 <br> <br><span class="pricedisc">
+            Pizza comes with all tapping that you describe in this section
+        </span></p>     <h2>Gourmet Pizza</h2>
+        <p>Classic pizza ...............$ 19.99 <br> <br><span class="pricedisc">
+            Pizza comes with all tapping that you describe in this section
+        </span></p>
+        <div class="exploremore">
+            <a class="exploremorea" href="">Explore More</a>
+        </div>
+    </div>
+</div>
+
+
+<!--pizza of the month-->
+<div class="container3">
+    <div class="column3">
+      <div class="content3">
+        <h2> <span class="pizza" style="color:#FF8C42 ;"> pizza </span> of the month <br> The big <span class="bird" style="color:#FF8C42; font-size: 40px;" >
+BIRD
+        </span></h2>
+        <div class="lines">
+        <img class="hands" src="/images/hands-taking-pizza 1.png" alt="">
+       
+        </div>
+      </div>
+    </div>
+    <img class="xat" style="width:20% ;" class="line" src="/logos/Line 1.svg" alt="">
+    <div class="column3">
+      <div class="content3" style="display:flex;">
+        
+       
+        <ul>
+            <li>Meat Pizza</li>
+            <li>Margarita Pizza</li>
+            <li>Hawaiian Pizza</li>
+            <li>Pepperoni Pizza</li>
+            <li>Veggie Pizza</li>
+            <li>Cheese Pizza</li>
+            
+          </ul> 
+      </div>
+    </div>
+  </div>
+ <!-- email-->
+
+<div class="email">
+<div class="sendemail">
+    <h2>Reservation</h2>
+    <p>Book online or give us a call on +91 1111 222 333</p>
+    <p>Between 9:30 am - 10:00 pm</p>
+<br> 
+<p>
+    Name -------------------------------
+</p>    
+<p>
+    E-mail -------------------------------
+</p>
+<p>Number -------------------------------</p>
+<p>Date&Time -------------------------------</p>
+<br>
+<div class="lastblood">
+<button>
+    send mail
+</button>
+</div>
+</div>
+</div>
+
+
+
+<script>
+    var icon = document.getElementById ("icon");
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+    
+    if ( document.body.classList.contains("dark-theme")) {
+        icon.src = "/logos/🦆\ icon\ _Cloud\ with\ Moon_.svg";
+    } else{
+        icon.src ="/logos/🦆 icon _Cloud with Sun_.png";
+    }
+}
+</script>
+
+</body>
+</html>
